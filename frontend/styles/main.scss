@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #122436;
+}
+
+// Navbar
+
+.navbar {
+    .navbar-brand {
+        height: 56px;
+    }
+
+    .navbar-nav {
+        a {
+            font-size: 18px;
+            font-weight: 700;
+            color: #122436 !important;
+        }
+    }
+
+    .btn-nav-masuk {
+        background-color: #1F91FF;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 38px;
+        color: #fff;
+        border-radius: 10px;
+    }
+}
+
+// Main
+
+// section hero
+.section-hero {
+    margin-top: -104px !important;
+    padding-top: 100px;
+    min-height: 100vh;
+
+    h1 {
+        font-weight: bold;
+        font-size: 46px;
+
+        span {
+            color: #1F91FF;
+        }
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .btn-masuk-hero {
+        background-color: #1F91FF;
+        padding: 14px 33px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .hero-img {
+        max-width: 100%;
+    }
+}
+
+// section pengumuman
+.section-pengumuman {
+    background-color: #F6F9FC;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    .section-pengumuman-content {
+        h2 {
+            margin-bottom: 70px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .card-pengumuman {
+            z-index: 1;
+            border: 0;
+            border-radius: 30px;
+            max-width: 343px;
+            background-color: #1F91FF;
+            filter: drop-shadow(0px 30px 100px rgba(0, 0, 0, 0.25));
+
+            .card-pengumuman-image {
+                max-width: 343px;
+                max-height: 209px;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+            }
+
+            .card-title {
+                padding: 0;
+                font-size: 24px;
+                font-weight: bold;
+                color: #fff;
+                margin: 20px 20px 10px 20px;
+            }
+
+            .btn-selengkapnya {
+                background-color: #fff;
+                max-width: 200px;
+                font-size: 14px;
+                font-weight: bold;
+                color: #1F91FF;
+                padding: 5px 15px;
+                margin: 0 20px 20px;
+
+                .bi-arrow-right-short {
+                    fill: #1F91FF !important;
+                }
+            }
+        }
+
+        .btn-post-lain {
+            z-index: 2;
+            background-color: #fff;
+            color: #1F91FF;
+            font-weight: bold;
+
+            .bi-arrow-down {
+                fill: #1F91FF;
+            }
+        }
+    }
+
+}
+
+// section fakultas
+.section-fakultas {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    h2 {
+        margin-bottom: 70px;
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .card-fakultas {
+        border-radius: 30px;
+        filter: drop-shadow(0px 30px 100px rgba(0, 0, 0, 0.25));
+
+        .black-opacity {
+            position: absolute;
+            width: 343px;
+            height: 361px;
+
+            background: rgba(18, 36, 54, 0.45);
+            border-radius: 30px;
+        }
+
+        h3 {
+            position: absolute;
+            margin: 27px auto auto 35px;
+            font-weight: 700;
+            font-size: 36px;
+            color: #fff;
+        }
+
+        p {
+            position: absolute;
+            bottom: 0;
+            margin: auto auto 35px 35px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+
+        a {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            margin: auto 35px 35px auto;
+            font-weight: bold;
+
+            .bi-arrow-right {
+                fill: #fff;
+            }
+        }
+    }
+
+    .btn-fakultas-lain {
+        z-index: 2;
+        background-color: #fff;
+        color: #1F91FF;
+        font-weight: bold;
+
+        .bi-arrow-down {
+            fill: #1F91FF;
+        }
+    }
+}
