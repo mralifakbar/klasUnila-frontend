@@ -27,6 +27,10 @@
         padding: 10px 38px;
         color: #fff;
         border-radius: 10px;
+
+        &:hover {
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        }
     }
 }
 
@@ -59,6 +63,10 @@
         color: #fff;
         font-size: 18px;
         font-weight: bold;
+
+        &:hover {
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        }
     }
 
     .hero-img {
@@ -114,6 +122,10 @@
                 .bi-arrow-right-short {
                     fill: #1F91FF !important;
                 }
+
+                &:hover {
+                    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+                }
             }
         }
 
@@ -125,6 +137,10 @@
 
             .bi-arrow-down {
                 fill: #1F91FF;
+            }
+
+            &:hover {
+                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
             }
         }
     }
@@ -148,8 +164,8 @@
 
         .black-opacity {
             position: absolute;
-            width: 343px;
-            height: 361px;
+            max-width: 343px;
+            max-height: 361px;
 
             background: rgba(18, 36, 54, 0.45);
             border-radius: 30px;
@@ -194,5 +210,74 @@
         .bi-arrow-down {
             fill: #1F91FF;
         }
+
+        &:hover {
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        }
+    }
+}
+
+.section-mengajar {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #F6F9FC;
+
+    .mengajar-image {
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    h2 {
+        font-size: 46px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 300;
+        margin-top: 25px;
+    }
+
+    .btn-tertarik {
+        margin-top: 25px;
+        padding: 12px 39px;
+        background-color: #1F91FF;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+
+        &:hover {
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        }
+    }
+}
+
+// footer
+
+footer {
+    padding-top: 70px;
+    padding-bottom: 10px;
+
+    h3 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    hr {
+        margin-top: 70px;
+    }
+
+    .footer-credit {
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 300;
     }
 }

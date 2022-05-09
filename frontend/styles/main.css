@@ -23,6 +23,11 @@
   border-radius: 10px;
 }
 
+.navbar .btn-nav-masuk:hover {
+  -webkit-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+          box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
 .section-hero {
   margin-top: -104px !important;
   padding-top: 100px;
@@ -50,6 +55,11 @@
   color: #fff;
   font-size: 18px;
   font-weight: bold;
+}
+
+.section-hero .btn-masuk-hero:hover {
+  -webkit-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+          box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .section-hero .hero-img {
@@ -107,6 +117,11 @@
   fill: #1F91FF !important;
 }
 
+.section-pengumuman .section-pengumuman-content .card-pengumuman .btn-selengkapnya:hover {
+  -webkit-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+          box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
 .section-pengumuman .section-pengumuman-content .btn-post-lain {
   z-index: 2;
   background-color: #fff;
@@ -116,6 +131,11 @@
 
 .section-pengumuman .section-pengumuman-content .btn-post-lain .bi-arrow-down {
   fill: #1F91FF;
+}
+
+.section-pengumuman .section-pengumuman-content .btn-post-lain:hover {
+  -webkit-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+          box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .section-fakultas {
@@ -137,8 +157,8 @@
 
 .section-fakultas .card-fakultas .black-opacity {
   position: absolute;
-  width: 343px;
-  height: 361px;
+  max-width: 343px;
+  max-height: 361px;
   background: rgba(18, 36, 54, 0.45);
   border-radius: 30px;
 }
@@ -181,5 +201,74 @@
 
 .section-fakultas .btn-fakultas-lain .bi-arrow-down {
   fill: #1F91FF;
+}
+
+.section-fakultas .btn-fakultas-lain:hover {
+  -webkit-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+          box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.section-mengajar {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #F6F9FC;
+}
+
+.section-mengajar .mengajar-image {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.section-mengajar h2 {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.section-mengajar p {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
+.section-mengajar .btn-tertarik {
+  margin-top: 25px;
+  padding: 12px 39px;
+  background-color: #1F91FF;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section-mengajar .btn-tertarik:hover {
+  -webkit-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+          box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+footer {
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+
+footer h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+footer hr {
+  margin-top: 70px;
+}
+
+footer .footer-credit {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 300;
 }
 /*# sourceMappingURL=main.css.map */
